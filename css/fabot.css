@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body{font-family: 'Nanum Gothic', sans-serif; font-family: 'Noto Sans KR', sans-serif; color: #222222;font-size: 26px; font-weight: 100;}
+a{color: inherit; text-decoration: none;}
+b{font-weight: bold;}
+i{font-style: italic;}
+u{text-decoration: underline;}
+button{border: 0; background-color: transparent;}
+.wrap{width: 1440px; padding: 0 20px;margin: auto; min-width: 1480px;}
+
+.hd{position: fixed; background-color: rgba(0,0,0,0.5); padding-top: 20px; padding-bottom: 10px;}
+.hd h1 img{width: 200px;}
+header{overflow: hidden; min-width: 1480px; position: absolute; top: 0; left: 0; width: 100%; padding-top: 54px;}
+header .wrap{}
+header h1{float: left;}
+header nav{float: right; color: #fff;}
+header nav ul{float: left;}
+header nav ul li{float: left; font-size: 20px; width: 150px;}
+header nav ul li a{display: block; padding: 20px;}
+header nav ul li:hover>a{font-weight: bold;}
+header nav button{float: left; margin-top: 20px;}
+
+.btn{ margin-top: 80px; display: inline-block; width: 380px; padding: 24px 0; border-radius: 18px;  text-align: center;}
+
+#banner{clear: both; background-image: url(../images/banner.png); background-repeat: no-repeat; height: 1018px; background-size: 100%; min-width: 1480px; color: #fff;}
+#banner h2{font-size: 90px;padding-top: 304px; padding-bottom: 56px; font-weight: 700; text-shadow: 3px 3px 5px #666;}
+#banner p{font-size: 30px; font-weight: 400; line-height: 1.3em; text-shadow: 5px 5px 8px #666;}
+#banner .btn{border: 4px solid #fff; font-weight: 500; font-size: 30px;text-shadow: 3px 3px 5px #666;}
+
+#banner2{width: 100%; height: 581px; background-image: url(../images/banner2.png); background-repeat: no-repeat;background-position: bottom; background-color: #252525; color: #fff; margin-top: -33px; text-align: center; min-width: 1480px;}
+#banner2 h3{font-size: 50px; padding-top: 103px; padding-bottom: 24px; font-weight: 700;letter-spacing: 4px;}
+#banner2 h4{padding-bottom: 30px; font-size: 30px; font-weight: 300;}
+#banner2 p{font-size: 22px; padding-top: 30px; line-height: 1.5;}
+#banner2 .bar{width: 3px; height: 115px; background-color: #fff; margin: auto;}
+
+section>div{clear: both; overflow: hidden; min-width: 1480px;}
+section .txt hr{width: 112px; height: 7px; background-color: #2196f3; border: 0; margin-bottom: 70px; margin-top: 30px; margin-left: 0;}
+section .txt .cblue{background-color: #2196f3;}
+section .txt .cblue2{background-color: #5283de;}
+section .txt .cgreen{background-color: #39b068;}
+section .txt .scy{background-color: #b9dfff;}
+section .txt .cpurple{background-color: #83519f;}
+section .txt .cred{background-color: #de3030;}
+
+section .txt .btnblue{ border: 3px solid #2196f3; color: #2196f3;}
+section .txt .btnblue2{ border: 3px solid #5283de; color: #5283de;}
+section .txt .btngreen{ border: 3px solid #39b068; color: #39b068;}
+section .txt .btnscy{ border: 3px solid #b9dfff; color: #b9dfff;}
+section .txt .btnpurple{ border: 3px solid #83519f; color: #83519f;}
+section .txt .btnred{ border: 3px solid #de3030; color: #de3030;}
+
+section .left{float: left;}
+section .btn{width: 370px; padding: 25px; font-weight: 400;}
+section .btnblue{color: #2196f3;}
+section .right{float: right;}
+section .txt{width: 710px;}
+section .img{width: 730px;}
+section .txt h3{font-size: 60px; padding-bottom: 40px; line-height: 1.5em;}
+section .txt p{font-size: 24px; line-height: 1.5em; margin-top: 50px;}
+
+.sect1{padding-top: 200px;}
+.sect1 .txt{padding-top: 95px;}
+.sect2{padding-top: 330px;}
+.sect3{padding-top: 265px;}
+.sect4{ padding-top: 105px; padding-bottom: 50px; background-color: #1979ca; margin-top: 200px; color: #fff;}
+.sect4 .txt{width: 630px;}
+.sect5{padding-top: 200px;}
+.sect5 .img{padding-top: 70px;}
+.sect6{margin-top: 238px; padding-top: 104px; background-color: #464646; color: #fff; padding-bottom: 50px;}
+.sect6 .img{padding-top: 70px;}
+.sect6 .txt{width: 500px;}
+.sect7{padding-top: 200px; padding-bottom: 202px;}
+.sect7 .img{padding-top: 23px; width: 600px;}
+.sect7 .txt{width: 800px;}
+
+.sect2 .txt{width: 550px;}
+.sect2 .img{width: 780px;}
+
+
+footer{clear: both; background-color: #21202e; color: #fff; padding-top: 60px; padding-bottom: 70px; font-size: 18px; min-width: 1480px;}
+footer>div{}
+footer>p{clear: both; padding-top: 41px; text-align: center; color: #babbbe; border-top: 1px solid #393845; font-size: 16px;}
+footer h5{padding-bottom: 45px; font-weight: bold;}
+footer li{padding-bottom: 31px; color: #babbbe; font-weight: 400;}
+footer .f1{float: left; padding-right: 168px;}
+footer .f1 li{float: left; padding-top: 35px; padding-right: 15px;}
+footer .f2{float: left; padding-right: 230px; padding-bottom: 70px;}
+footer .f3{float: left; padding-right: 155px;}
+footer input{width: 270px; height: 52px; border: 1px solid #5b5a65; background-color: transparent; padding: 18px; box-sizing: border-box; color: #fff;}
+footer input::placeholder{color: #5b5a65; font-size: 18px;}
+.f4 button img{width: 52px; position: relative; top: 22px; left: -11px;}
+.f4 h5{margin-top: 30px; padding-bottom: 30px;}
+
+.top{position: fixed; right: 20px; bottom: 20px; background-color: #eee; display: block; width: 40px; height: 40px; border-radius: 20px; line-height: 35px; text-align: center;}
