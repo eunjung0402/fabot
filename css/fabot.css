@@ -6,7 +6,7 @@ b{font-weight: bold;}
 i{font-style: italic;}
 u{text-decoration: underline;}
 button{border: 0; background-color: transparent;}
-.wrap{width: 1440px; padding: 0 20px;margin: auto; min-width: 1480px;}
+.wrap{width: 1440px; padding: 0 20px; margin: auto; max-width: 1480px;}
 
 .hd{position: fixed; background-color: rgba(0,0,0,0.5); padding-top: 20px; padding-bottom: 10px;}
 .hd h1 img{width: 200px;}
