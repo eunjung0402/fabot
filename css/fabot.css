@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 body{font-family: 'Nanum Gothic', sans-serif; font-family: 'Noto Sans KR', sans-serif; color: #222222;font-size: 26px; font-weight: 100;}
-a{color: inherit; text-decoration: none;}
+a{color: inherit; text-decoration: none; max-width: 1400px;}
 b{font-weight: bold;}
 i{font-style: italic;}
 u{text-decoration: underline;}
